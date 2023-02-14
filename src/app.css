@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		font-family: 'Libre Baskerville', serif;
+	}
+}
+@layer components {
+	.tabActive {
+		@apply text-primary/70;
+	}
+	.membership-text {
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.713) 0%, #644201 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+	}
+	.shadows {
+		box-shadow: 0px 4px 4px rgba(146, 146, 146, 0.33);
+	}
+	.dot {
+		background: linear-gradient(180deg, rgba(255, 113, 113, 0.53) 51.7%, #f400b0 78.23%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+	}
+	.pink-gradient {
+		background: linear-gradient(180deg, rgba(246, 227, 227, 0.32) 0%, #e5a9a9 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+
+	.drop-cap::first-letter {
+		color: rgb(67, 67, 67);
+		padding-right: 2px;
+		-webkit-initial-letter: 2;
+		initial-letter: 2;
+	  }
+}
