@@ -7,8 +7,8 @@
 
 <div class="w-screen h-screen ">
 	<section
-		class="bg-cover bg-center w-full h-full {routeId=="/membership"? "bg-opacity-90" :"bg-opacity-61"}
-		 bg-neutral  {routeId=="/"? "bg-blend-overlay" :"bg-blend-normal"}"
+		class="bg-cover bg-center w-full h-full {routeId=="/our-story" ? "bg-neutral" :"bg-neutral/40"}
+		  {routeId=="/"? "bg-blend-overlay" :"bg-blend-normal"}"
 		style="background-image: url({heroImage});"
 	>
 	<div class=" max-w-5xl mx-auto ">

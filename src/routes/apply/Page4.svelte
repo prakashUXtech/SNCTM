@@ -12,7 +12,6 @@
 					<div class="h-16 w-[4.5rem] bg-base-200 rounded-xl grid place-items-center flex-shrink-0">
 						<img class="h-8 w-8 object-contain" src="images/apply-img-4.png" alt="" />
 					</div>
-
 					<div class="text-sm flex-1">
 						<h4 class="font-bold font-Bodani  text-lg">Completely Confidential</h4>
 						<p class="">Applications are sent using TLS encryption protocols to protect.</p>
