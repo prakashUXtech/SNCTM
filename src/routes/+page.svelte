@@ -3,7 +3,9 @@
 	import ExclusiveOrder from "$lib/components/home/ExclusiveOrder.svelte";
 	import Hero from "$lib/components/Hero.svelte";
 	import ExclusiveContent from "$lib/components/ExclusiveContent.svelte";
-	let heroImage='images/home/home-hero.png'
+	// let heroImage='images/home/home-hero.png'
+	let heroImage='https://snctm-svelte2.pages.dev/_app/immutable/assets/painting_satin-20120b48.jpg'
+
 	let header = "Know yourself"
 </script>
 
