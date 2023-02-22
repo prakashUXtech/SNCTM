@@ -8,7 +8,7 @@
 		</h1>
 	</div>
 	<center class="max-w-2xl mt-[10%] mx-auto px-4">
-		<h1 class="text-4xl text-neutral mb-5 font-bold font-Bodani">Our Story</h1>
+		<h1 class="text-4xl text-neutral mb-5 font-bold font-Bodoni">Our Story</h1>
 		<p class="text-neutral lg:w-[35rem]">
 			SNCTM was founded in 2013 in Beverly Hills, California. From initial roots as a private
 			masquerade for exclusive clientéle, the Club has evolved into the unparalleled master in

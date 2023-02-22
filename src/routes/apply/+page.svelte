@@ -5,6 +5,8 @@
 	import Page2 from "./Page2.svelte";
 	import Page3 from "./Page3.svelte";
 	import Page4 from "./Page4.svelte";
+	import Footer2 from "$lib/footer/Footer2.svelte";
+	
 	let heroImage = 'images/apply/hero.png';
 	let header = "Apply to Attend"
 </script>
@@ -24,5 +26,8 @@
 	</div>
 	<div class="carousel-item w-screen h-screen">
 		<Page4/>
+	</div>
+	<div class="carousel-item w-full">
+		<Footer2 />
 	</div>
 </div>

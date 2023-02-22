@@ -36,7 +36,8 @@
                     </div>
                     <div class="mt-3">
                         <button class="btn shadow-lg normal-case btn-sm flex px-2 py-1 rounded-md border-2 
-                        justify-between text-[#000000] text-sm font-mono font-bold bg-event-hero-hr border-button-color 
+                        justify-between text-[#000000] hover:bg-info text-sm font-mono font-bold bg-event-hero-hr
+                         border-button-color 
                         sm:space-x-3 space-x-1">
                             Book Now 
                         <span class="flex  ml-5">

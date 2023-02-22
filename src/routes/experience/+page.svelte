@@ -1,11 +1,13 @@
 <script>
 	import ExclusiveContent from "$lib/components/ExclusiveContent.svelte";
-import Hero from "$lib/components/Hero.svelte";
-import Daring from "./Daring.svelte";
+	import Hero from "$lib/components/Hero.svelte";
+	import Daring from "./Daring.svelte";
 	import Event0 from "./Event0.svelte";
 	import Event1 from "./Event1.svelte";
 	import Event2 from "./Event2.svelte";
 	import Video from "./Video.svelte";
+	import Footer2 from "$lib/footer/Footer2.svelte";
+	
 	let heroImage = '/images/experience/hero.png';
 	let header = "High Sensual "
 </script>
@@ -31,5 +33,8 @@ import Daring from "./Daring.svelte";
 	</div>
 	<div class="carousel-item w-screen h-screen">
 		<ExclusiveContent/>
+	</div>
+	<div class="carousel-item w-full">
+		<Footer2 />
 	</div>
 </div>

@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import Footer2 from '../footer/Footer2.svelte';
 	$: routeId = $page.route.id;
 </script>
 

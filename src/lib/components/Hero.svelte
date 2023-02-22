@@ -1,18 +1,20 @@
 <script>
 	import { page } from '$app/stores';
+	import MainNav from '../header/MainNav.svelte';
 	$:routeId = $page.route.id
 	import Navbar from './Navbar.svelte';
 	export let heroImage,header,artbox;
 </script>
 
-<div class="w-screen h-screen ">
+<div class="w-screen {routeId=="/contact" ? "h-[120vh]" :"h-screen"} ">
 	<section
 		class="bg-cover bg-center w-full h-full {routeId=="/our-story" ? "bg-neutral" :"bg-neutral/40"}
 		  {routeId=="/"? "bg-blend-overlay" :"bg-blend-normal"}"
 		style="background-image: url({heroImage});"
 	>
-	<div class=" max-w-5xl mx-auto ">
-		<Navbar />
+	<div class=" max-w-screen-md mx-auto ">
+		<!-- <Navbar /> -->
+		<MainNav />
 	</div>
 		
 		<div class="max-w-5xl mx-auto h-[85vh]  relative">

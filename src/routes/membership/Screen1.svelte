@@ -1,4 +1,4 @@
-<div class="w-screen lg:h-screen h-auto flex justify-center items-center  bg-base-200">
+<div class="w-screen lg:h-screen h-auto flex justify-center items-center  bg-snctm-brown">
 	<div
 		class="flex lg:flex-row flex-col  lg:space-x-20 space-x-0 max-w-5xl  mx-auto py-5 justify-center items-center "
 	>

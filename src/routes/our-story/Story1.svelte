@@ -13,7 +13,7 @@
 			class="flex flex-col justify-end my-20 lg:w-[43%] pr-12 text-left space-y-4 text-base-100"
 		>
 			<img src="images/our-story/sensual-art.png" class="w-[15rem]" alt="" />
-			<h1 class="text-4xl font-semibold text-base-100 font-Bodani">High quality Art</h1>
+			<h1 class="text-4xl font-semibold text-base-100 font-Bodoni">High quality Art</h1>
 			<p class="text-base-100">
 				SNCTM is dedicated to creating High quality Art. Every performance is a labor of love, and
 				each masquerade is aimed at achieving perfection. Our creative team works tirelessly to

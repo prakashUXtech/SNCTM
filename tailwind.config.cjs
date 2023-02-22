@@ -4,9 +4,11 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				Bodoni: ['Bodoni Moda', 'serif']
+				Bodoni: ['scotch-display-condensed','sans-serif'],
+				Simplicity : ['semplicitapro', 'sans-serif']
 			},
 			colors: {
+				'snctm-brown': '#eae1cf',
 				'events-white': '#D8C196',
 				'event-darkorange': '#BA8D37',
 				'event-hr': '#DDCDAE',
@@ -27,10 +29,13 @@ module.exports = {
 				'contact-form-clr': '#78643E',
 				'button-color': '#CAAC71',
 				'apply-page-bg': '#F1E9D5'
-			}
+			},
 		}
 	},
-	plugins: [require('daisyui')],
+	plugins: [
+		require('daisyui'),
+		require('@tailwindcss/forms'),
+	],
 	daisyui: {
 		themes: [
 			{

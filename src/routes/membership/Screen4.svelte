@@ -1,6 +1,6 @@
 <div class="w-screen lg:h-screen h-auto  bg-base-100 ">
 	<div class="flex flex-row justify-end items-center lg:mx-32 mx-10 py-10">
-		<span class="membership-text text-xl text-right font-bold ">
+		<span class="membership-text text-xl text-right font-bold font-Bodoni ">
 			Three Levels of Exclusive <br /> Mmembership
 		</span>
 		<hr class="border-[#78643E] w-32 ml-8" />
