@@ -1,4 +1,4 @@
-import { invalid } from "@sveltejs/kit";
+import { error } from "@sveltejs/kit";
 import sendEmail from "$lib/server/mailchimp-transactional";
 
 // interface TokenValidateResponse {
@@ -45,30 +45,30 @@ export const actions = {
     const token = data.get('cf-turnstile-response') // if you edited the formsField option change this
     const SECRET_KEY = '0x4AAAAAAABejW8YnDv3rUElg83U-S9vYRU' // you should use $env module for secrets
 
-    const { success, error } = await validateToken(token, SECRET_KEY);
+    const { success, errors } = await validateToken(token, SECRET_KEY);
 
     if (!success)
       return {
-        error: error || 'Invalid CAPTCHA',
+        error: errors || 'Invalid CAPTCHA',
       };
 
     if (!name) {
-      return invalid(400, { name, missing: true });
+      return error(400, { name, missing: true });
     }
     if (!email) {
-      return invalid(400, { email, missing: true });
+      return error(400, { email, missing: true });
     }
     if (!subject) {
-      return invalid(400, { subject, missing: true });
+      return error(400, { subject, missing: true });
     }
     if (!message) {
-      return invalid(400, { message, missing: true });
+      return error(400, { message, missing: true });
     }
 
     let response = await sendEmail(email, subject, message);
 
     if (response?.status !== 200) {
-      return invalid(400, { message: 'Failed to send email' });
+      return error(400, { message: 'Failed to send email' });
     }
 
     console.log('Email sent');
