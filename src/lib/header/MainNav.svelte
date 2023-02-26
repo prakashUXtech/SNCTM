@@ -9,7 +9,7 @@
         <a href="/">
           <Logotype color="snctm-brown" />
         </a>
-        <div class="">
+        <div class="relative z-50">
           <AuthenticationButton />
         </div>
     </div>
