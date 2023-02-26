@@ -1,5 +1,3 @@
-
-
 <div class="lg:h-auto h-auto w-screen bg-base-100 relative">
     <div class="lg:mx-20 mx-10 absolute left-0 top-10">
         <div class="flex flex-row">
@@ -10,10 +8,10 @@
 
     <div class="max-w-4xl px-4 mx-auto mt-3 p-10 pt-[5.5rem]">
         <div class="flex sm:flex-row flex-wrap gap-y-4 justify-end space-x-4">
-            <button class="bg-base-200 px-6 py-1 text-sm rounded-md shadow-md">Feb 2023</button>
-            <button class="bg-base-200 px-6 py-1 text-sm rounded-md btn-disabled">March 2023</button>
-            <button class="bg-base-200 px-6 py-1 text-sm rounded-md btn-disabled">April 2023</button>
-            <button class="bg-base-200 px-6 py-1 text-sm rounded-md btn-disabled">May 2023</button>
+            <button class="bg-white/70 hover:bg-info px-6 py-1 text-sm rounded-md shadow-md">Feb 2023</button>
+            <button class="bg-white/30 hover:bg-info px-6 py-1 text-sm rounded-md">March 2023</button>
+            <button class="bg-white/30 hover:bg-info px-6 py-1 text-sm rounded-md">April 2023</button>
+            <button class="bg-white/30 hover:bg-info px-6 py-1 text-sm rounded-md">May 2023</button>
         </div>
 
         <div class="grid lg:grid-cols-2  grid-cols-1  gap-5 mt-5">

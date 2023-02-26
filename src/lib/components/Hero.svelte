@@ -8,10 +8,10 @@
 
 <div class="w-screen {routeId=="/contact" ? "h-[120vh]" :"h-screen"} ">
 	<section
-		class="bg-cover bg-center w-full h-full {routeId=="/our-story" ? "bg-neutral" :"bg-neutral/40"}
-		  {routeId=="/"? "bg-blend-overlay" :"bg-blend-normal"}"
+		class="bg-cover bg-center w-full h-full relative"
 		style="background-image: url({heroImage});"
 	>
+	<div class="absolute top-0 left-0 inset-0 bg-black/30"></div>
 	<div class=" max-w-screen-md mx-auto ">
 		<!-- <Navbar /> -->
 		<MainNav />

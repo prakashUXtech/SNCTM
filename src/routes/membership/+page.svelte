@@ -8,7 +8,7 @@
 	import Screen4 from "./Screen4.svelte";
 	import Screen5 from "./Screen5.svelte";
 
-	let heroImage = 'images/membership/hero.png';
+	let heroImage = 'https://snctm-svelte2.pages.dev/_app/immutable/assets/tux_room-15f19dfe.jpg';
 	let header = "A Society of Libertines "
 </script>
 

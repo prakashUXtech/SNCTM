@@ -7,7 +7,7 @@
 	import Page4 from "./Page4.svelte";
 	import Footer2 from "$lib/footer/Footer2.svelte";
 	
-	let heroImage = 'images/apply/hero.png';
+	let heroImage = 'https://snctm-svelte2.pages.dev/_app/immutable/assets/poolside-64a8dfa3.jpg';
 	let header = "Apply to Attend"
 </script>
 

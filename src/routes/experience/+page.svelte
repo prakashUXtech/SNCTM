@@ -8,7 +8,7 @@
 	import Video from "./Video.svelte";
 	import Footer2 from "$lib/footer/Footer2.svelte";
 	
-	let heroImage = '/images/experience/hero.png';
+	let heroImage = "https://snctm-svelte2.pages.dev/_app/immutable/assets/harp-0f172c48.jpg";
 	let header = "High Sensual "
 </script>
 

@@ -6,7 +6,7 @@
 	import Story2 from "./Story2.svelte";
 	import Footer2 from "$lib/footer/Footer2.svelte";
 	
-	let heroImage = 'images/hero-ourStory.png';
+	let heroImage = 'images/our-story/hero.png';
 	let header="Our Story"
 </script>
 

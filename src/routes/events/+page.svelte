@@ -4,9 +4,9 @@
 	import Event3 from './Event3.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Footer2 from "$lib/footer/Footer2.svelte";
-
-	import ExclusiveContent from '../../lib/components/ExclusiveContent.svelte';
-	let heroImage = 'images/events/hero.png';
+	import ExclusiveContent from '$lib/components/ExclusiveContent.svelte';
+	
+	let heroImage = 'https://snctm-svelte2.pages.dev/_app/immutable/assets/table_set-4b4e0779.jpg';
 	let header = "Soirees"
 </script>
 

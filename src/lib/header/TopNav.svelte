@@ -27,14 +27,15 @@
 		<a href="/experience" class="hover:underline" class:tabActive={routeId === '/experience'}
 			>THE EXPERIENCE</a
 		>
+		<a href="/our-story" class="hover:underline" class:tabActive={routeId === '/our-story'}
+			>THE STORY</a
+		>
 
 		<a href="/membership" class="hover:underline" class:tabActive={routeId === '/membership'}
 			>MEMBERSHIP</a
 		>
 		<a href="/events" class="hover:underline" class:tabActive={routeId === '/events'}>EVENTS</a>
-		<a href="/our-story" class="hover:underline" class:tabActive={routeId === '/our-story'}
-			>OURSTORY</a
-		>
+		
 		<a href="/apply" class="hover:underline" class:tabActive={routeId === '/apply'}>APPLY</a>
 		<a href="/contact" class="hover:underline" class:tabActive={routeId === '/contact'}>CONTACT US</a
 		>
