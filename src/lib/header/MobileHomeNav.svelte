@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import logo from '../../../static/logo.svg';
 	import { slide } from 'svelte/transition';
-	import Logotype from '$lib/Logotype.svelte';
+	import Logotype from "$lib/Logotype.svelte";
 	let hidden = true;
 	const toggleMenu = () => {
 		hidden = !hidden;
@@ -34,7 +34,7 @@
 
 <div
 	class:shadow-lg={y > 5}
-	class="md:hidden sticky top-0 z-50 flex py-2 h-14 bg-[#222222]"
+	class="md:hidden w-full absolute left-0 px-2 top-0 z-50 flex py-2 h-14 bg-[#222222]"
 	use:clickOutside={{ enabled: !hidden, cb: () => (hidden = true) }}
 >
 	<div class="flex w-auto">
@@ -56,10 +56,11 @@
 	</button>
 </div>
 
+<!--  -->
 {#if !hidden}
 	<div
 		transition:slide
-		class="md:hidden absolute w-auto z-50 mobile-menu border px-8 bg-gray-100 text-gray-700"
+		class="md:hidden absolute w-full z-50 mobile-menu top-14 left-0 border px-8 bg-gray-100 text-gray-700"
 	>
 		<ul class="">
 			<li>
