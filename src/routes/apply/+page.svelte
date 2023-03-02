@@ -1,10 +1,10 @@
 <script>
 	import Hero from "$lib/components/Hero.svelte";
 	import ExclusiveContent from "$lib/components/ExclusiveContent.svelte";
-	import Page1 from "./Page1.svelte";
-	import Page2 from "./Page2.svelte";
-	import Page3 from "./Page3.svelte";
-	import Page4 from "./Page4.svelte";
+	import ExclusiveOrder from "./ExclusiveOrder.svelte";
+	import MinimumMembership from "./MinimumMembership.svelte";
+	import WelcomeWomen from "./WelcomeWomen.svelte";
+	import BeginApplication from "./BeginApplication.svelte";
 	import Footer2 from "$lib/footer/Footer2.svelte";
 	
 	let heroImage = 'https://snctm-svelte2.pages.dev/_app/immutable/assets/poolside-64a8dfa3.jpg';
@@ -15,17 +15,17 @@
 	<div class="carousel-item w-screen h-screen">
 		<Hero  heroImage={heroImage} header={header}/>
 	</div>
-	<div class="carousel-item w-screen h-screen">
-		<Page1/>
+	<div class="carousel-item lg:w-screen lg:h-screen">
+		<ExclusiveOrder />
+	</div>
+	<div class="carousel-item lg:w-screen lg:h-screen">
+		<MinimumMembership />
 	</div>
 	<div class="carousel-item w-screen h-screen">
-		<Page2/>
+		<WelcomeWomen />
 	</div>
 	<div class="carousel-item w-screen h-screen">
-		<Page3/>
-	</div>
-	<div class="carousel-item w-screen h-screen">
-		<Page4/>
+		<BeginApplication />
 	</div>
 	<div class="carousel-item w-full">
 		<Footer2 />

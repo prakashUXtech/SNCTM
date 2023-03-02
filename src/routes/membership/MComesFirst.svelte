@@ -2,7 +2,7 @@
 
 
 <div class="w-screen lg:h-screen h-auto  flex items-center justify-center bg-base-100  relative">
-    <div class="absolute left-0 top-14">
+    <div class="absolute left-0 top-14 hidden lg:block">
         <img src="images/membership/members-comes-first.png" 
         class=" w-full lg:h-fit h-[8rem]" alt="">
     </div>
@@ -11,7 +11,7 @@
     lg:pt-[18rem] mt-10 px-4 space-y-5">
             <img src="/images/membership/snctm-logo.png"  alt="">
             <h1 class="text-4xl font-bold font-Bodoni text-neutral">Members Come First</h1>
-            <div class="text-content-primary text-[14px] space-y-5 w-[30rem]">
+            <div class="text-content-primary text-[14px] space-y-5 lg:w-[30rem] mx-4">
                 <p class="drop-cap">
                     Approved Non-members are permitted to purchase from a limited the fruits. 
                     One will soon find that there is much more beyond the next door.supply of 

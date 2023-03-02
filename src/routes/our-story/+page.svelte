@@ -2,8 +2,8 @@
 	import Hero from "$lib/components/Hero.svelte";
 	import ExclusiveContent from "$lib/components/ExclusiveContent.svelte";
 	import Story from "./Story.svelte";
-	import Story1 from "./Story1.svelte";
-	import Story2 from "./Story2.svelte";
+	import Art from "./Art.svelte";
+	import NewEra from "./NewEra.svelte";
 	import Footer2 from "$lib/footer/Footer2.svelte";
 	
 	let heroImage = 'images/our-story/hero.png';
@@ -18,10 +18,10 @@
 		<Story/>
 	</div>
 	<div class="carousel-item w-screen h-screen">
-		<Story1/>
+		<Art/>
 	</div>
 	<div class="carousel-item w-screen h-screen">
-		<Story2/>
+		<NewEra/>
 	</div>
 	<div class="carousel-item w-full">
 		<Footer2 />

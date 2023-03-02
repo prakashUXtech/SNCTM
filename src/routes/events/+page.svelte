@@ -1,7 +1,7 @@
 <script>
-	import Event1 from './Event1.svelte';
-	import Event2 from './Event2.svelte';
-	import Event3 from './Event3.svelte';
+	import Events from './Events.svelte';
+	import Benifits from './Benifits.svelte';
+	import ElegantOrder from './ElegantOrder.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Footer2 from "$lib/footer/Footer2.svelte";
 	import ExclusiveContent from '$lib/components/ExclusiveContent.svelte';
@@ -15,14 +15,14 @@
 	<div class="carousel-item h-screen w-screen">
 		<Hero heroImage={heroImage} header={header}/>
 	</div>
-	<div class="carousel-item h-full w-screen">
-		<Event1/>
+	<div class="carousel-item lg:h-full w-screen">
+		<Events/>
 	</div> 
 	<div class="carousel-item h-full w-screen">
-		<Event2/>
+		<Benifits/>
 	</div> 
 	<div class="carousel-item h-full w-screen">
-		<Event3/>
+		<ElegantOrder/>
 	</div> 
 	<div class="carousel-item h-full w-screen">
 		<ExclusiveContent/>

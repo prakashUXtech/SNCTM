@@ -1,4 +1,4 @@
-<div class="lg:h-screen h-auto w-screen bg-accent/60">
+<div class="lg:h-screen w-screen bg-accent/60">
 	<div class="max-w-screen-xl  px-10  h-full mx-auto flex flex-col justify-between py-20 ">
 		<div>
 			<h1 class="membership-text text-6xl md:text-8xl font-bold mb-5 font-Bodoni">

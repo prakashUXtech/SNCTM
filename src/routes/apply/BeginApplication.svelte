@@ -18,21 +18,25 @@
 	<div class="max-w-screen-lg mx-auto flex flex-col py-10 px-4 justify-center  items-center">
 		<div class="space-y-8 flex justify-center items-center ">
 			
-			<img src="images/apply/begin.png" class="w-[80%]" alt="" />
+			<img src="images/apply/begin.png" class="lg:w-[80%]" alt="" />
 			<!-- <img src="images/navlogo-black.png" class="absolute w-32 top-0 " alt=""> -->
 		</div>
 
 		<div>
-			<div class="flex sm:flex-row flex-col justify-between items-center items-start space-x-2 max-w-3xl my-5 lg:pl-8">
+			<div class="flex sm:flex-row flex-col justify-between items-center 
+			space-y-5 md:space-y-0 lg:space-x-2 max-w-3xl my-5 lg:pl-8">
 				{#each securityContent as c}
-					<div class="h-16 w-[4.5rem] bg-base-200 border border-primary rounded-xl grid 
-					place-items-center flex-shrink-0">
-						<img class="h-8 w-8 object-contain" src="{c.img_url}" alt="" />
+					<div class="flex space-x-3"> 
+						<div class="h-16 w-[4.5rem] bg-base-200 border border-primary rounded-xl grid 
+						place-items-center flex-shrink-0">
+							<img class="h-8 w-8 object-contain" src="{c.img_url}" alt="" />
+						</div>
+						<div class="text-sm flex-1 ">
+							<h4 class="font-bold font-Bodoni text-lg">{c.title}</h4>
+							<p class="">{c.description}</p>
+						</div>
 					</div>
-					<div class="text-sm flex-1 ">
-						<h4 class="font-bold font-Bodoni text-lg">{c.title}</h4>
-						<p class="">{c.description}</p>
-					</div>
+					
 				{/each}
 			</div>
 
@@ -40,7 +44,7 @@
 				<button
 					class="btn  normal-case shadow-xl text-center btn-md 
                     hover:bg-secondary/50 hover:border-none   
-                    flex sm:px-44 px-20 py-1 rounded-md border-2 
+                    flex px-44 py-1 rounded-md border-2 
                     justify-between my-3 text-neutral text-lg font-bold 
                     bg-accent border-secondary space-x-3">
 					Begin

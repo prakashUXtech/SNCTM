@@ -1,8 +1,8 @@
 <div class="w-screen lg:h-screen h-auto bg-neutral">
-	<div class="flex flex-row h-full ">
+	<div class="flex flex-row h-full mx-12 lg:mx-0">
 		<div class="flex flex-col justify-between lg:w-[50%]">
 			<h1
-				class="lg:text-[9rem] text-[5rem] leading-none  
+				class="hidden lg:block lg:text-[9rem] text-[5rem] leading-none  
                 max-w-xs font-bold pt-5 pl-3 text-black/10 font-Bodoni"
 			>
 				Our Story
